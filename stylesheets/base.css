@@ -94,3 +94,9 @@ a {
 h1 {
   font-size: 3rem;
 }
+
+.footer {
+  color: #0000008a;
+  font-size: 0.75rem;
+  font-weight: 300;
+}
