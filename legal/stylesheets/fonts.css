@@ -1,0 +1,71 @@
+/*! purgecss start ignore */
+@font-face {
+  /* Regular */
+  font-family: "Eina 04";
+  src: url("/legal/fonts/eina-04-regular.woff2") format("woff2"),
+    url("/legal/fonts/eina-04-regular.woff") format("woff"),
+    url("/legal/fonts/eina-04-regular.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  /* Italic */
+  font-family: "Eina 04";
+  src: url("/legal/fonts/eina-04-italic.woff2") format("woff2"),
+    url("/legal/fonts/eina-04-italic.woff") format("woff"),
+    url("/legal/fonts/eina-04-italic.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  /* Light */
+  font-family: "Eina 04";
+  src: url("/legal/fonts/eina-04-light.woff2") format("woff2"),
+    url("/legal/fonts/eina-04-light.woff") format("woff"),
+    url("/legal/fonts/eina-04-light.ttf") format("truetype");
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  /* Light-Italic */
+  font-family: "Eina 04";
+  src: url("/legal/fonts/eina-04-lightitalic.woff2") format("woff2"),
+    url("/legal/fonts/eina-04-lightitalic.woff") format("woff"),
+    url("/legal/fonts/eina-04-lightitalic.ttf") format("truetype");
+  font-weight: 300;
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  /* Semi-Bold */
+  font-family: "Eina 04";
+  src: url("/legal/fonts/eina-04-semibold.woff2") format("woff2"),
+    url("/legal/fonts/eina-04-semibold.woff") format("woff"),
+    url("/legal/fonts/eina-04-semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  /* Medium */
+  font-family: "Input Sans";
+  src: url("/legal/fonts/input-sans-medium.woff2") format("woff2"),
+    url("/legal/fonts/input-sans-medium.woff") format("woff");
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  /* Bold */
+  font-family: "Input Sans";
+  src: url("/legal/fonts/input-sans-bold.woff2") format("woff2"),
+    url("/legal/fonts/input-sans-bold.woff") format("woff");
+  font-weight: 700;
+  font-display: swap;
+}
+/*! purgecss end ignore */
