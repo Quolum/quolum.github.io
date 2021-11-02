@@ -15,25 +15,137 @@
     <link rel="stylesheet" href="/legal/stylesheets/base.css" />
     <link rel="stylesheet" href="/legal/stylesheets/fonts.css" />
     <link rel="stylesheet" href="/legal/stylesheets/footer.css" />
+    <link rel="stylesheet" href="/legal/stylesheets/header.css" />
     <title>Quolum | Terms of Use</title>
   </head>
 
   <body>
-    <header class="container mx-auto px-8 py-10 flex justify-between items-center">
-      <a href="https://quolum.com" class="block">
-        <img src="/legal/images/quolum_logo.svg" alt="Quolum" class="h-8" />
-      </a>
-      <div class="w-6"></div>
-      <div class="flex">
-        <a href="https://app.quolum.io/iamlogin?source=website" class="button-outline">
-          LOG IN
+    <nav class="container mx-auto px-8 py-7 lg:py-10 relative lg:z-10">
+      <label aria-label="menu"
+      class="flex-initial flex relative h-full w-stretch flex flex-wrap justify-between">
+      <a
+        class="min-w-1 h-6 lg:h-9" href="/">
+        <img
+          src="https://files.dashx.com/assets/aadbb4a620782f6fb0f827ce4e30ff46" alt="logo"
+          class="flex-initial min-w-1 h-6 lg:h-9">
         </a>
-        <div class="w-6"></div>
-        <a href="https://app.quolum.io/signup?source=website" class="button">
-          SIGN UP
-        </a>
-      </div>
-    </header>
+        <input type="checkbox" class="hidden" />
+        <span
+          class="absolute bottom-0 right-0 p-2 -m-2 opacity-0 transition-simple cross lg:hidden cursor-pointer">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+            viewBox="0 0 20 20" style="width: 20px; height: 20px;">
+            <g fill="none" fill-rule="evenodd" stroke="none" stroke-linecap="square" stroke-width="1">
+              <g stroke="currentColor" stroke-width="2" transform="translate(-328 -30)">
+                <g transform="translate(330 32)">
+                  <path d="M0.333 0.333L15.667 15.667"></path>
+                  <path d="M0.333 0.333L15.667 15.667" transform="matrix(-1 0 0 1 16 0)"></path>
+                </g>
+              </g>
+            </g>
+          </svg>
+        </span>
+        <span class="transition-simple transform transition-delay absolute bottom-0 right-0 p-2 -m-2 hamburger lg:hidden transform transition-simple-transform transition-delay-2">
+          <svg
+            xmlns="http://www.w3.org/2000/svg" width="24" height="20" viewBox="0 0 24 20"
+            style="width: 24px; height: 20px; transform-origin: 13px 9px;"
+          >
+            <g fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
+              <g fill="currentColor" transform="translate(-324 -30)">
+                <g transform="translate(324 30)">
+                  <g>
+                    <path d="M0 0H24V2H0z"></path>
+                    <path d="M0 9H24V11H0z"></path>
+                    <path d="M0 18H24V20H0z"></path>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </svg>
+        </span>
+        <ul
+          class="mobile-items lg:bg-none bg-white transform transition-simple-out opacity-0 -translate-y-2 -z-1 flex-initial flex lg:opacity-100 lg:translate-y-0 lg:z-auto lg:flex-row flex-col w-full lg:w-auto mt-20 py-6 pb-12 lg:my-0 lg:py-0 absolute lg:relative left-0 top-0 lg:h-auto px-8 lg:px-0">
+          <li class="lg:my-0 my-1 w-stretch relative lg:w-auto">
+            <span
+              class="active:text-shadow transition-simple group relative inline-block p-2 w-stretch relative lg:w-auto lg:px-6 lg:cursor-pointer">
+              <a
+                href="https://quolum.com/product/saas-card"
+                class="inline-block">Product</a>
+              <div
+                style="position: absolute; z-index: 5; border-radius: 4px; left: 50%; top: 100%; box-shadow: 0px 1px 16px rgba(95, 97, 111, 0.1);"
+                class="transition-simple transition-opacity opacity-0 lg:group-hover:opacity-1 transform -translate-x-1/2 translate-y-2 group-hover:translate-y-0">
+                <div
+                  style="width: 0; height: 0; border-left: 16px solid transparent; border-right: 16px solid transparent; border-bottom: 24px solid #FFFFFF; position: absolute; top: -12px; left: 50%; transform: translate(-50%, 0); z-index: -1;">
+                </div>
+                <div
+                  style="border-radius: 4px; background: #FFFFFF; padding: 8px; z-index: 7; white-space: nowrap;" class="flex flex-col">
+                  <a class="text-gray-dark hover:text-red-main p-2" href="https://quolum.com/product/saas-card">SaaS Card</a>
+                  <a
+                    class="text-gray-dark hover:text-red-main p-2" href="https://quolum.com/product/saas-management">SaaS Management</a>
+                    <a
+                    class="text-gray-dark hover:text-red-main p-2" href="https://quolum.com/product/security">Security</a>
+                  </div>
+              </div>
+            </span>
+          </li>
+          <li class="lg:my-0 my-1 w-stretch relative lg:w-auto"><a
+              class="active:text-shadow transition-simple group relative inline-block p-2 hover:text-red-main w-stretch relative lg:w-auto lg:px-6 lg:cursor-pointer"
+              href="https://quolum.com/pricing"><span class="inline-block">Pricing<span
+                  class="absolute w-2 h-2 bg-red-main rounded-full opacity-0 lg:group-hover:opacity-100 transition-simple-out left-1/2 transform -translate-x-1/2 bottom-0 group-hover:-bottom-1 hidden lg:block"></span></span></a>
+          </li>
+          <li class="lg:my-0 my-1 w-stretch relative lg:w-auto"><span
+              class="active:text-shadow transition-simple group relative inline-block p-2 w-stretch relative lg:w-auto lg:px-6 lg:cursor-pointer">
+              <a
+                href="https://quolum.com/blog"
+                class="inline-block">Resources</a>
+              <div
+                style="position: absolute; z-index: 5; border-radius: 4px; left: 50%; top: 100%; box-shadow: 0px 1px 16px rgba(95, 97, 111, 0.1);"
+                class="transition-simple transition-opacity opacity-0 lg:group-hover:opacity-1 transform -translate-x-1/2 translate-y-2 group-hover:translate-y-0">
+                <div
+                  style="width: 0; height: 0; border-left: 16px solid transparent; border-right: 16px solid transparent; border-bottom: 24px solid #FFFFFF; position: absolute; top: -12px; left: 50%; transform: translate(-50%, 0); z-index: -1;">
+                </div>
+                <div
+                  style="border-radius: 4px; background: #FFFFFF; padding: 8px; z-index: 7; white-space: nowrap;" class="flex flex-col">
+                  <a class="text-gray-dark hover:text-red-main p-2" href="https://quolum.com/blog">Blog</a><a
+                    class="text-gray-dark hover:text-red-main p-2" href=" http://live.quolum.com/ ">Events</a><a
+                    rel="noopener noreferrer" href="https://help.quolum.com/"
+                    class="text-gray-dark hover:text-red-main p-2">Help</a></div>
+              </div>
+            </span>
+          </li>
+          <li class="lg:my-0 my-1 w-stretch relative lg:w-auto"><span
+              class="active:text-shadow transition-simple group relative inline-block p-2 w-stretch relative lg:w-auto lg:px-6 lg:cursor-pointer">
+              <a
+                href="https://quolum.com/company/about"
+                class="inline-block">Company</a>
+              <div
+                style="position: absolute; border-radius: 4px; left: 50%; top: 100%; box-shadow: 0px 1px 16px rgba(95, 97, 111, 0.1);"
+                class="transition-simple transition-opacity opacity-0 lg:group-hover:opacity-1 transform -translate-x-1/2 translate-y-2 group-hover:translate-y-0">
+                <div
+                  style="width: 0; height: 0; border-left: 16px solid transparent; border-right: 16px solid transparent; border-bottom: 24px solid #FFFFFF; position: absolute; top: -12px; left: 50%; transform: translate(-50%, 0); z-index: -1;">
+                </div>
+                <div
+                  style="border-radius: 4px; background: #FFFFFF; padding: 8px; z-index: 7; white-space: nowrap;" class="flex flex-col">
+                  <a class="text-gray-dark hover:text-red-main p-2" href="https://quolum.com/company/about">About Us</a><a
+                    class="text-gray-dark hover:text-red-main p-2" href="https://quolum.com/company/contact">Contact Us</a><a
+                    rel="noopener noreferrer" href="https://www.linkedin.com/company/quolum/jobs/" target="_blank"
+                    class="text-gray-dark hover:text-red-main p-2">Careers</a></div>
+              </div>
+            </span>
+          </li>
+          <li class="lg:px-2 xl:px-6 flex"><a rel="noopener noreferrer" href="https://app.quolum.io/iamlogin?source=website"
+              class="font-input font-bold uppercase tracking-wider-1 lg:text-xs text-sm inline-flex items-center rounded-full transition-simple group active:shadow-button-1 focus:shadow-button-1 whitespace-no-wrap border-3 border-red-main lg:leading-tight-2 leading-tight-4 text-left w-full py-3 px-5 hover:text-white hover:bg-red-main text-center my-5 lg:my-0 nav-auth"><span
+                class="inline-block flex-grow">LOGIN</span><span
+                class="w-2 h-2 inline-block bg-red-main rounded-full ml-4 group-hover:bg-white transition-simple hidden"></span></a>
+          </li>
+          <li><a rel="noopener noreferrer" href="https://app.quolum.io/signup?source=website"
+              class="font-input font-bold uppercase tracking-wider-1 lg:text-xs text-sm inline-flex items-center rounded-full transition-simple group active:shadow-button-1 focus:shadow-button-1 whitespace-no-wrap text-white bg-red-main border-red-main border-t-2 border-b-2 lg:leading-relaxed-1 leading-tight-4 text-center w-full py-3 px-5 nav-auth"><span
+                class="inline-block flex-grow">SIGN UP</span><span
+                class="w-2 h-2 inline-block bg-red-main rounded-full ml-4 group-hover:bg-white transition-simple hidden"></span></a>
+          </li>
+        </ul>
+      </label>
+      <div class="fixed top-0 left-0 bg-white w-full h-screen -z-1 lg:hidden transition-simple-out opacity-0"></div>
+    </nav>
     <main class="relative">
       <div style="background-image: url(https://files.dashx.com/assets/5b3c36babd03f561520648276be02524); background-repeat: no-repeat; background-size: contain; background-position: right bottom; top: -275px;" class="absolute w-screen-lg h-screen-lg -z-1 lg:block hidden right-11/20"></div>
       <div class="title">
