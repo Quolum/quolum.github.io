@@ -14,9 +14,11 @@
     <link rel="preload" href="/legal/fonts/eina-04-semibold.woff2" as="font" crossorigin="anonymous" />
     <link rel="stylesheet" href="/legal/stylesheets/base.css" />
     <link rel="stylesheet" href="/legal/stylesheets/fonts.css" />
+    <link rel="stylesheet" href="/legal/stylesheets/footer.css" />
+    <link rel="stylesheet" href="/legal/stylesheets/header.css" />
     <title>Quolum | Quolum Card Program Agreement</title>
 
-    <style>
+    <style>      
       .content {
         padding-inline-start: 0;
       }
@@ -31,21 +33,130 @@
   </head>
 
   <body>
-    <header class="container mx-auto px-8 py-10 flex justify-between items-center">
-      <a href="https://quolum.com" class="block">
-        <img src="/legal/images/quolum_logo.svg" alt="Quolum" class="h-8" />
-      </a>
-      <a href="https://github.com/Quolum/quolum.github.io/commits/master/cardholder-agreement.html" class="button">
-        REVISION HISTORY
-      </a>
-    </header>
-    <main>
+    <nav class="container mx-auto px-8 py-7 lg:py-10 relative lg:z-10">
+      <label aria-label="menu"
+      class="flex-initial flex relative h-full w-stretch flex flex-wrap justify-between">
+      <a
+        class="min-w-1 h-6 lg:h-9" href="/">
+        <img
+          src="https://files.dashx.com/assets/aadbb4a620782f6fb0f827ce4e30ff46" alt="logo"
+          class="flex-initial min-w-1 h-6 lg:h-9">
+        </a>
+        <input type="checkbox" class="hidden" />
+        <span
+          class="absolute bottom-0 right-0 p-2 -m-2 opacity-0 transition-simple cross lg:hidden cursor-pointer">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+            viewBox="0 0 20 20" style="width: 20px; height: 20px;">
+            <g fill="none" fill-rule="evenodd" stroke="none" stroke-linecap="square" stroke-width="1">
+              <g stroke="currentColor" stroke-width="2" transform="translate(-328 -30)">
+                <g transform="translate(330 32)">
+                  <path d="M0.333 0.333L15.667 15.667"></path>
+                  <path d="M0.333 0.333L15.667 15.667" transform="matrix(-1 0 0 1 16 0)"></path>
+                </g>
+              </g>
+            </g>
+          </svg>
+        </span>
+        <span class="transition-simple transform transition-delay absolute bottom-0 right-0 p-2 -m-2 hamburger lg:hidden transform transition-simple-transform transition-delay-2">
+          <svg
+            xmlns="http://www.w3.org/2000/svg" width="24" height="20" viewBox="0 0 24 20"
+            style="width: 24px; height: 20px; transform-origin: 13px 9px;"
+          >
+            <g fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
+              <g fill="currentColor" transform="translate(-324 -30)">
+                <g transform="translate(324 30)">
+                  <g>
+                    <path d="M0 0H24V2H0z"></path>
+                    <path d="M0 9H24V11H0z"></path>
+                    <path d="M0 18H24V20H0z"></path>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </svg>
+        </span>
+        <ul
+          class="mobile-items lg:bg-none bg-white transform transition-simple-out opacity-0 -translate-y-2 -z-1 flex-initial flex lg:opacity-100 lg:translate-y-0 lg:z-auto lg:flex-row flex-col w-full lg:w-auto mt-20 py-6 pb-12 lg:my-0 lg:py-0 absolute lg:relative left-0 top-0 lg:h-auto px-8 lg:px-0">
+          <li class="lg:my-0 my-1 w-stretch relative lg:w-auto">
+            <span
+              class="active:text-shadow transition-simple group relative inline-block p-2 w-stretch relative lg:w-auto lg:px-6 lg:cursor-pointer">
+              <span
+                class="inline-block">Product</span>
+              <div
+                style="z-index: 5; border-radius: 4px; left: 50%; top: 100%;"
+                class="transition-simple transition-opacity lg:opacity-0 opacity-1 lg:group-hover:opacity-1 transform lg:-translate-x-1/2 lg:translate-y-2 lg:group-hover:translate-y-0 lg:absolute lg:shadow">
+                <div
+                  style="width: 0; height: 0; border-left: 16px solid transparent; border-right: 16px solid transparent; border-bottom: 24px solid #FFFFFF; position: absolute; top: -12px; left: 50%; transform: translate(-50%, 0); z-index: -1;">
+                </div>
+                <div
+                  style="border-radius: 4px; background: #FFFFFF; padding: 8px; z-index: 7; white-space: nowrap;" class="flex flex-col">
+                  <a class="text-gray-dark hover:text-red-main p-2" href="https://quolum.com/product/saas-card">SaaS Card</a>
+                  <a
+                    class="text-gray-dark hover:text-red-main p-2" href="https://quolum.com/product/saas-management">SaaS Management</a>
+                    <a
+                    class="text-gray-dark hover:text-red-main p-2" href="https://quolum.com/product/security">Security</a>
+                  </div>
+              </div>
+            </span>
+          </li>
+          <li class="lg:my-0 my-1 w-stretch relative lg:w-auto"><a
+              class="active:text-shadow transition-simple group relative inline-block p-2 hover:text-red-main w-stretch relative lg:w-auto lg:px-6 lg:cursor-pointer"
+              href="https://quolum.com/pricing"><span class="inline-block">Pricing<span
+                  class="absolute w-2 h-2 bg-red-main rounded-full opacity-0 lg:group-hover:opacity-100 transition-simple-out left-1/2 transform -translate-x-1/2 bottom-0 group-hover:-bottom-1 hidden lg:block"></span></span></a>
+          </li>
+          <li class="lg:my-0 my-1 w-stretch relative lg:w-auto"><span
+              class="active:text-shadow transition-simple group relative inline-block p-2 w-stretch relative lg:w-auto lg:px-6 lg:cursor-pointer">
+              <span
+                class="inline-block">Resources</span>
+              <div
+                style="z-index: 5; border-radius: 4px; left: 50%; top: 100%;"
+                class="transition-simple transition-opacity lg:opacity-0 opacity-1 lg:group-hover:opacity-1 transform lg:-translate-x-1/2 lg:translate-y-2 lg:group-hover:translate-y-0 lg:absolute lg:shadow">
+                <div
+                  style="width: 0; height: 0; border-left: 16px solid transparent; border-right: 16px solid transparent; border-bottom: 24px solid #FFFFFF; position: absolute; top: -12px; left: 50%; transform: translate(-50%, 0); z-index: -1;">
+                </div>
+                <div
+                  style="border-radius: 4px; background: #FFFFFF; padding: 8px; z-index: 7; white-space: nowrap;" class="flex flex-col">
+                  <a class="text-gray-dark hover:text-red-main p-2" href="https://quolum.com/blog">Blog</a><a
+                    class="text-gray-dark hover:text-red-main p-2" href=" http://live.quolum.com/ ">Events</a><a
+                    rel="noopener noreferrer" href="https://help.quolum.com/"
+                    class="text-gray-dark hover:text-red-main p-2">Help</a></div>
+              </div>
+            </span>
+          </li>
+          <li class="lg:my-0 my-1 w-stretch relative lg:w-auto"><span
+              class="active:text-shadow transition-simple group relative inline-block p-2 w-stretch relative lg:w-auto lg:px-6 lg:cursor-pointer">
+              <span
+                class="inline-block">Company</span>
+              <div
+                style="border-radius: 4px; left: 50%; top: 100%;"
+                class="transition-simple transition-opacity lg:opacity-0 opacity-1 lg:group-hover:opacity-1 transform lg:-translate-x-1/2 lg:translate-y-2 lg:group-hover:translate-y-0 lg:absolute lg:shadow">
+                <div
+                  style="width: 0; height: 0; border-left: 16px solid transparent; border-right: 16px solid transparent; border-bottom: 24px solid #FFFFFF; position: absolute; top: -12px; left: 50%; transform: translate(-50%, 0); z-index: -1;">
+                </div>
+                <div
+                  style="border-radius: 4px; background: #FFFFFF; padding: 8px; z-index: 7; white-space: nowrap;" class="flex flex-col">
+                  <a class="text-gray-dark hover:text-red-main p-2" href="https://quolum.com/company/about">About Us</a><a
+                    class="text-gray-dark hover:text-red-main p-2" href="https://quolum.com/company/contact">Contact Us</a><a
+                    rel="noopener noreferrer" href="https://www.linkedin.com/company/quolum/jobs/" target="_blank"
+                    class="text-gray-dark hover:text-red-main p-2">Careers</a></div>
+              </div>
+            </span>
+          </li>
+        </ul>
+      </label>
+      <div class="fixed top-0 left-0 bg-white w-full h-screen -z-1 lg:hidden transition-simple-out opacity-0"></div>
+    </nav>
+    <main class="relative">
+      <div style="background-image: url(https://files.dashx.com/assets/5b3c36babd03f561520648276be02524); background-repeat: no-repeat; background-size: contain; background-position: right bottom; top: -275px;" class="absolute w-screen-lg h-screen-lg -z-1 lg:block hidden right-11/20"></div>
       <div class="title">
         <h1>Quolum Card Program Agreement</h1>
+        <h3><b>Effective Date:</b> May 17, 2021</h3>
+        <a href="https://github.com/Quolum/quolum.github.io/commits/master/cardholder-agreement.html" class="text-link">
+          Revision History
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="9" viewBox="0 0 24 9"><g fill="none" fill-rule="evenodd" stroke="none" stroke-width="1"><g fill="currentColor" fill-rule="nonzero" transform="translate(-1281 -56)"><g transform="translate(1281 56)"><path d="M23 4L23 5 0 5 0 4z"></path><path d="M19 0.730892728L19.698631 0 24 4.5 19.698631 9 19 8.26910727 22.6032565 4.5z"></path></g></g></g></svg>
+        </a>
       </div>
       <div class="container mx-auto px-8 pt-10 pb-4">
-        <h4>Effective Date: May 17, 2021</h4>
-
         <h5>
           IMPORTANT: These Terms include resolution of Disputes by arbitration instead of in court and class action
           waiver. PLEASE READ CAREFULLY.
@@ -1097,6 +1208,56 @@
         </ul>
       </div>
     </main>
-    <footer class="container px-8 py-10 mx-auto footer">Copyright © 2021 Quolum, Inc.</footer>
+    <div class="container-fluid footer-block">
+      <footer class="footer"> 
+      <div class="footer-items">
+      <div class="address-block">
+      <a rel="noopener noreferrer" href="https://www.quolum.com">
+      <img src="https://files.claycms.io/asset/638/file/original-e7b813cd4fb8b48e5cb7070de6d13763.svg">
+      </a>
+      <div class="d-none d-lg-block">
+      <p>3736 Fallon Rd #309 <br>Dublin CA 94568</p>
+      <p class="social-media">
+      <a rel="noopener noreferrer" href="https://www.linkedin.com/company/quolum" target="_blank" class="block">
+      <img src="https://files.claycms.io/asset/618/file/original-7cce8cda59d38ce3c0eae0855a830d37.svg" alt="Linkedin White bg">
+      </a>
+      <a rel="noopener noreferrer" href="https://twitter.com/QuolumHQ" target="_blank" class="block">
+      <img src="https://files.claycms.io/asset/620/file/original-624d832fb4d9d9abb69cbc77a35da16b.svg" alt="Twitter White bg">
+      </a>
+      </p>
+      </div>
+      </div>
+      <div class="nav-list">
+      <a class="menu-item" href="https://quolum.com/product/saas-card">SaaS Card</a>
+      <a class="menu-item" href="https://quolum.com/product/saas-management">SaaS Management</a>
+      <a class="menu-item" href="https://quolum.com/product/security">Security</a>
+      <a class="menu-item" href="https://quolum.com/pricing">Pricing</a>
+      <a class="menu-item" href="https://quolum.com/company/about">About</a>
+      <a class="menu-item" href="https://quolum.com/company/contact">Contact</a>
+      <br>
+      <a class="menu-item" href="https://quolum.com/privacy-policy">Privacy Policy</a>
+      <a class="menu-item" href="https://quolum.com/terms-of-service">Terms of Service</a>
+      <a class="menu-item" href="https://help.quolum.com/docs">Help</a>
+      <a class="menu-item" href="https://quolum.com/blog/">Blog</a>
+      <a class="menu-item" href="https://live.quolum.com/">Event</a>
+      <a class="menu-item" href="https://www.linkedin.com/company/quolum">Careers</a>
+      </div>
+      <div class="address-block d-lg-none">
+      <p>3736 Fallon Rd #309 <br>Dublin CA 94568</p>
+      <p class="social-media">
+      <a rel="noopener noreferrer" href="https://www.linkedin.com/company/quolum" target="_blank" class="block">
+      <img src="https://files.claycms.io/asset/618/file/original-7cce8cda59d38ce3c0eae0855a830d37.svg" alt="Linkedin White bg">
+      </a>
+      <a rel="noopener noreferrer" href="https://twitter.com/QuolumHQ" target="_blank" class="block">
+      <img src="https://files.claycms.io/asset/620/file/original-624d832fb4d9d9abb69cbc77a35da16b.svg" alt="Twitter White bg">
+      </a>
+      </p>
+      </div>
+      </div>
+      <p class="mq-info">
+      The Quolum Visa® Commercial Card is issued by Sutton Bank, Member FDIC, pursuant to a license from Visa U.S.A. Inc. <br> The Quolum Commercial Card is powered by Marqeta. Terms and Conditions apply.
+      </p>
+      </footer>
+      </div>
   </body>
 </html>
