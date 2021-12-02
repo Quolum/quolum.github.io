@@ -80,7 +80,12 @@ a {
 .items-center {
   align-items: center;
 }
-
+.text-center {
+  text-align: center;
+}
+.text-sm {
+  font-size: 0.875rem;
+}
 .button {
   align-items: center;
   background-color: #e02f46;

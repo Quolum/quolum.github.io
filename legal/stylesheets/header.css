@@ -201,9 +201,6 @@ img {
 .flex-wrap {
   flex-wrap: wrap;
 }
-.items-center {
-  align-items: center;
-}
 .justify-between {
   justify-content: space-between;
 }
@@ -327,9 +324,6 @@ img {
 .text-left {
   text-align: left;
 }
-.text-center {
-  text-align: center;
-}
 .text-gray-dark {
   color: #2c2e3a;
 }
@@ -341,9 +335,6 @@ img {
 }
 .hover\:text-white:hover {
   color: #fff;
-}
-.text-sm {
-  font-size: 0.875rem;
 }
 .uppercase {
   text-transform: uppercase;
