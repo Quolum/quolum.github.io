@@ -164,3 +164,16 @@
     width: 1.5rem;
   }
 }
+
+.footer-markdown-text * {
+  color: rgba(191, 192, 196, 1);
+}
+
+.footer-markdown-text a {
+  color: rgba(191, 192, 196, 1);
+  font-weight: 400;
+}
+
+.footer-markdown-text a:hover {
+  color: #ffffff;
+}
